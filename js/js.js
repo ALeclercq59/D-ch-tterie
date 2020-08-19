@@ -54,10 +54,10 @@ $(function(){
                 }
                 else
                 {
-                    window.location.href = 'acceuil.php';
+                    window.location.href = './accueil.php';
                 }
             }
-        )
+        );
     });
 
 });

@@ -77,7 +77,7 @@ if(isset($_POST['login']) && isset($_POST['password']))
 
 
 
-/* Pagination pour tableau dans acceuil */
+/* Pagination pour tableau dans accueil */
 
 
 

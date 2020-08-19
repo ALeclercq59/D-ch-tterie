@@ -10,7 +10,7 @@ include('./include/connectBdd.php');
         <link href="css/btn_custom.css" rel="stylesheet" type="text/css"/>
     </head>
 
-    <body class='home home_acceuil'>
+    <body class='home home_accueil'>
 
         <!-- Navigation start -->
         <header id="nav" class='header'>
@@ -18,7 +18,7 @@ include('./include/connectBdd.php');
                 <div class="container">
 
                     <div class="navbar-header">
-                        <a class="navbar-brand title-nav" href="acceuil.php"><?= $_SESSION['statut']; ?></a>
+                        <a class="navbar-brand title-nav" href="accueil.php"><?= $_SESSION['statut']; ?></a>
                     </div>
 
                     <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -28,7 +28,7 @@ include('./include/connectBdd.php');
                     <div class="collapse navbar-collapse" id="navbarResponsive">
                         <ul class="navbar-nav ml-auto">
                             <li class="nav-item">
-                                <a class="nav-link" href="acceuil.php">Acceuil</a>
+                                <a class="nav-link" href="accueil.php">Accueil</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link saisie" href="saisie.php">Saisie</a>
