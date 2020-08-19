@@ -1,0 +1,100 @@
+.home {
+    background: linear-gradient(90deg, rgba(1, 1, 1, 0.65) 0%, rgba(1, 1, 1, 0.65) 100%), url("../images/fond-ecran.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #000;
+}
+
+.mvh-100 {
+    height:100vh;
+}
+
+
+.deco {
+    position: absolute;
+    bottom: 3%;
+    right: 1%;
+}
+
+
+/* NavBar */
+
+.header {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;  required 
+    z-index:999;
+}
+
+
+
+/* index.html */
+
+.title {
+    color: white;
+    font-size: 3em;
+}
+
+
+/* Connexion.php */
+
+.container-login {
+    height: 100%;
+    align-content: center;
+}
+
+.card {
+    height: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 400px;
+    background-color: rgba(255,255,255,1) !important;
+}
+
+
+
+/* Acceuil.php */
+
+.home_acceuil {
+    min-height: 100vh;!important
+}
+
+.title-nav {
+    text-transform:uppercase;
+    font-size: 1.5em;
+}
+
+.nav-item a {
+    text-transform:uppercase;
+    font-size: 1.4em;
+}
+
+
+.title {
+    color: white;
+    text-transform:uppercase;
+    font-size: 2.3em;
+    margin-top: 30px;
+}
+
+.table {
+    color: white;
+}
+
+.page-item a {
+    color: white;
+}
+
+.disabled {
+  opacity: 0.5;  
+}
+
+
+
+/* Saisie.php */
+
+.form-group label {
+    font-size: 1.2em;
+    color: white;
+}
